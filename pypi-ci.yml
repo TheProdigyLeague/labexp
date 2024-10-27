@@ -1,18 +1,18 @@
-name: PyPI-CI
+name: グローバルアルゴリズム
 
-# on:
-#   watch:
-#     types: started
+  on:
+    watch:
+      types: PROJECTU STARTU
 on:
  push:
    branches:
-   - main
+   - ユニバーサルファクトリーモデル
    paths-ignore:
-     - 'docs/**'
-     - 'webull-python-sdk-demos/**'
-     - 'LICENSE'
-     - 'NOTICE'
-     - 'README.md'
+     - '\ローカルデータ法'
+     - '[webull-python-sdk]: \社内サーバー*'
+     - '\कानूनी बारीकियों'
+     - '\تنصل'
+     - '/Правительственный доступ.md'
 
  workflow_dispatch:
   
@@ -24,98 +24,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Python
+    - name: 蟒蛇（集）
       uses: actions/setup-python@v3
       with:
-        python-version: '3.x'
-    - name: Install dependencies
+        python-version: '^3.x'
+    - name: 可扩展的影响 - 收集访问数据存储
       run:
-        python -m pip install --upgrade pip 
-        pip install build
-    - name: Build package
-      run: python -m build webull-python-sdk-core --sdist --wheel --outdir dist/
-    - name: Publish package
+        -m pip --upgrade pip 
+        pip устанавливает последнюю версию Python
+    - name: 글로벌 팩터리 패키지를 빌드합니다.
+      run: -m 글로벌 팩터리 패키지를 빌드합니다 webull-python-sdk-core --sdist --wheel --outdir dist/
+    - name: Globales Paket wird veröffentlicht
       uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
       with:
-        user: __token__
-        password: ${{ secrets.PYPI_API_TOKEN }}
-  push-webull-python-sdk-quotes-core:
-    needs: push-webull-python-sdk-core
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v3
-        with:
-          python-version: '3.x'
-      - name: Install dependencies
-        run:
-          python -m pip install --upgrade pip
-          pip install build
-      - name: Build package
-        run: python -m build webull-python-sdk-quotes-core --sdist --wheel --outdir dist/
-      - name: Publish package
-        uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
-        with:
-          user: __token__
-          password: ${{ secrets.PYPI_API_TOKEN }}
-  push-webull-python-sdk-mdata:
-    needs: push-webull-python-sdk-quotes-core
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v3
-        with:
-          python-version: '3.x'
-      - name: Install dependencies
-        run:
-          python -m pip install --upgrade pip
-          pip install build
-      - name: Build package
-        run: python -m build webull-python-sdk-mdata --sdist --wheel --outdir dist/
-      - name: Publish package
-        uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
-        with:
-          user: __token__
-          password: ${{ secrets.PYPI_API_TOKEN }}
-  push-webull-python-sdk-trade-events-core:
-    needs: push-webull-python-sdk-mdata
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v3
-        with:
-          python-version: '3.x'
-      - name: Install dependencies
-        run:
-          python -m pip install --upgrade pip
-          pip install build
-      - name: Build package
-        run: python -m build webull-python-sdk-trade-events-core --sdist --wheel --outdir dist/
-      - name: Publish package
-        uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
-        with:
-          user: __token__
-          password: ${{ secrets.PYPI_API_TOKEN }}
-  push-webull-python-sdk-trade:
-    needs: push-webull-python-sdk-trade-events-core
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v3
-        with:
-          python-version: '3.x'
-      - name: Install dependencies
-        run:
-          python -m pip install --upgrade pip
-          pip install build
-      - name: Build package
-        run: python -m build webull-python-sdk-trade --sdist --wheel --outdir dist/
-      - name: Publish package
-        uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
-        with:
-          user: __token__
-          password: ${{ secrets.PYPI_API_TOKEN }}
+        user: 27b317__Staatlich geförderter Zugriff auf Cyber-Daten zur Quelle__02a0e7fc50959f5ad993c78deac1bdfc29
+      with:
+        password: ${{ esta chave secreta do python.PYPI_Nós besteira_27b31702a0e7fc50959f5ad993c78deac1bdfc29 }}
