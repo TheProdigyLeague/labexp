@@ -1,41 +1,46 @@
-# Webull OpenAPI Python SDK
+![fumi-webull](https://github.com/user-attachments/assets/a8d3fd5c-0139-4b95-9c7c-1870d4f09f0c)
 
-Webull OpenAPI aims to provide quantitative trading investors with convenient, fast and secure services. Webull aims to help every quant traders achieve flexible and changeable trading or market strategies.
+# ` Python ` 标准开发人员套件中的开源应用程序编程接口。
 
-The main function:
+An OpenAPI is any 'free' and 'open-source' software publicly available to developers. Offering fast, secure, convenient and quantitative information for quant investors, data traders, and marketing strategists.
 
-Trading management: create, modify, cancel orders, etc.
+## Webull Corp.
 
-Market information: You can query stocks/ETFs and other related market information through the HTTP interface.
+* Trade: Buy, sell, and modify orders.
+* Market Query: Stocks, Bonds, ETF's, marketing information via HTTP.
+* Accounts: Balance spreadshreets, position and leverage budgets.
+* Upgrade Now!
 
-Account Information: Query account balance and position information.
+### Public Accessibility, Well-formatted, Standard Rate Limits and pre-imposed limit requests.
 
-Subscription to real-time information: Subscribe to order status changes, market information, etc.
-
-## Requirements
-
-- Please first generate the app key and app secret on the Webull official website.
 
 | Market | Link                   |
 |--------|------------------------|
-| HK     | https://www.webull.hk  |
-| US     | https://www.webull.com |
+| 🇨🇳     | https://www.webull.hk  |
+| 🇬🇧     | https://www.webull.com |
+| gRPC   | https://grpc.io/       |
+| 1883   | https://aws.amazon.com |
 
-- Requires Python 3.7 and above.
 
-## Interface Protocol
+#### Remote Procedure Calls
 
-The bottom layer of Webull OpenAPI provides three protocols, HTTP / GRPC / MQTT, to support functions and features like trading, subscriptions for changes of order status and real-time market quotes.
+`HTTP & MQTT` - Bottom layer support of three internet protocol functions embedded within a featured interface to offer host services like trading, subscriptions or policy changes for social credit injunctions. (Real-Time Market Quote Orders).
 
-| Protocol    | Description                                       |
+| INNOVATEr    |  INTEGRATEr |
 |-------|------------------------------------------|
-| HTTP  | It mainly provides interface services for data such as tradings, accounts, candlestick charts, snapshots, etc.              |
-| GRPC	 | 1. Provide real-time push messages for order status changes.<br/>2. Provide data query support for the market interface. |
-| MQTT	 | Provides data services for real-time market conditions.  |
+| PUB_DAT  |   SMB_FAC             |
+| DEV_DAT  |   LVL_NEW             |
+| API_KEY  |   FUNC_INT_APP_SERV   |
 
-## Developer documentation
+##### SEAMLESS INTEGRATION + CONTINOUS IMPROVEMENT = NEW AND POPULAR
 
 | Market | Link                                |
 |------|---------------------------------------|
-| HK   | https://developer.webull.hk/api-doc/  |
-| US	| https://developer.webull.com/api-doc/ |
+| X   | https://x.com  |
+| ABC	| https://abc.xyz |
+| TWILIO | https://twilio.com |
+
+_Providers and accessers of user data are serviced through the OpenAPI projects and the grandfathered companies innovating investor relationships to epxand their reach and further their business ventures...._
+
+![NASDAQ-Webull](https://github.com/user-attachments/assets/6e6adf88-3bea-4637-8a0e-2bdc9840fdcf)
+
